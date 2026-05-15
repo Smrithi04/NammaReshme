@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Background Leaf (Forest Green) -->
+    <path
+        android:fillColor="#1B5E3B"
+        android:pathData="M50,5 C35,5 20,20 20,45 C20,65 35,80 50,95 C65,80 80,65 80,45 C80,20 65,5 50,5 Z" />
+    
+    <!-- Central Vein -->
+    <path
+        android:strokeColor="#14532D"
+        android:strokeWidth="2"
+        android:pathData="M50,10 L50,90" />
+    
+    <!-- Silk Cocoon (Pearl White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,30 C58.28,30 65,38.95 65,50 C65,61.05 58.28,70 50,70 C41.72,70 35,61.05 35,50 C35,38.95 41.72,30 50,30 Z" />
+    
+    <!-- Silk Thread Detail (Golden) -->
+    <path
+        android:strokeColor="#D4A017"
+        android:strokeWidth="1.5"
+        android:pathData="M38,42 L62,58 M38,58 L62,42 M35,50 L65,50" />
+
+</vector>
