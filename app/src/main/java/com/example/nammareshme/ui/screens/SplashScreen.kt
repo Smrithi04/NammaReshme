@@ -1,8 +1,6 @@
 package com.example.nammareshme.ui.screens
 
-import androidx.compose.material3.Icon
-import com.composables.icons.lucide.Lucide
-import com.composables.icons.lucide.Bug
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -79,11 +77,11 @@ fun SplashScreen(
                     ),
                 contentAlignment = Alignment.Center
             ) {
-                Icon(
-                    imageVector = Lucide.Bug,
+                androidx.compose.material3.Icon(
+                    painter = painterResource(id = com.example.nammareshme.R.drawable.ic_app_logo),
                     contentDescription = "App Logo",
-                    tint = Color(0xFF1B5E3B), // Splash green or dark green
-                    modifier = Modifier.size(48.dp)
+                    tint = Color.Unspecified,
+                    modifier = Modifier.size(60.dp)
                 )
             }
 
