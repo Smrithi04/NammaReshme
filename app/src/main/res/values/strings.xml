@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Namma-Reshme</string>
+    <string name="welcome_title">Welcome to\nNamma-Reshme</string>
+    <string name="kannada_lang">ಕನ್ನಡ</string>
+    <string name="english_lang">ENGLISH</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="logs">Logs</string>
+    <string name="batch">Batch</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="temperature">Temperature (°C)</string>
+    <string name="humidity">Humidity (%)</string>
+    <string name="save">SAVE</string>
+    <string name="logout">Logout</string>
+    <string name="active_cycle">ACTIVE CYCLE IN PROGRESS</string>
+    <string name="log_climate">LOG CLIMATE DATA</string>
+    <string name="initialize_cycle">INITIALIZE CYCLE</string>
+</resources>
